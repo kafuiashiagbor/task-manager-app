@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #6b73ff, #9b59b6);
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  background: white;
+  border-radius: 20px;
+  width: 90%;
+  max-width: 860px;
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.2);
+}
+
+.header {
+  background: linear-gradient(135deg, #6b73ff, #9b59b6);
+  padding: 30px;
+  color: white;
+}
+
+.header h1 {
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+
+.header p {
+  font-size: 14px;
+  opacity: 0.85;
+}
+
+.stats {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.stat-box {
+  background: rgba(255,255,255,0.2);
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: white;
+  text-align: center;
+}
+
+.stat-box span {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.stat-box p {
+  font-size: 12px;
+  opacity: 0.85;
+}
+
+.main-area {
+  display: flex;
+  gap: 16px;
+  padding: 24px;
+}
+
+.input-section {
+  display: flex;
+  flex-direction: column;
+  width: 220px;
+  gap: 12px;
+}
+
+textarea {
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 14px;
+  font-size: 14px;
+  resize: none;
+  height: 200px;
+  outline: none;
+  color: #555;
+}
+
+#addTaskBtn {
+  background: linear-gradient(135deg, #6b73ff, #9b59b6);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 14px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#addTaskBtn:hover {
+  opacity: 0.9;
+}
+
+.task-list {
+  flex: 1;
+  background: #f9f9f9;
+  border-radius: 12px;
+  padding: 20px;
+  min-height: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #aaa;
+  font-size: 14px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 24px;
+  font-size: 13px;
+  color: #aaa;
+}
+
+#clearBtn {
+  background: none;
+  border: none;
+  color: #aaa;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+#clearBtn:hover {
+  color: #9b59b6;
+}
