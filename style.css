@@ -9,7 +9,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(135deg, #6b73ff, #9b59b6);
+  background: linear-gradient(135deg, #EEAECA, #94BBE9);
   font-family: Arial, sans-serif;
 }
 
@@ -23,7 +23,7 @@ body {
 }
 
 .header {
-  background: linear-gradient(135deg, #6b73ff, #9b59b6);
+  background: linear-gradient(135deg, #EEAECA, #94BBE9);
   padding: 30px;
   color: white;
 }
