@@ -23,4 +23,3 @@ Currently in development as part of my internship at CybaNext Technologies.
 
 ## Author
 Immanuella Kafui Aku Ashiagbor
-Computer Science Student, Ashesi University
