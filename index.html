@@ -7,39 +7,33 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div class="container">
+      <div class="header">
+        <h1>My Task Bar</h1>
+        <p>Stay organized, get things done</p>
+        <div class="stats">
+          <div class="stat-box"><span id="pendingCount">0</span><p>Pending</p></div>
+          <div class="stat-box"><span id="doneCount">0</span><p>Done</p></div>
+          <div class="stat-box"><span id="totalCount">0</span><p>Total</p></div>
+        </div>
+      </div>
 
-    
+      <div class="main-area">
+        <div class="input-section">
+          <textarea id="taskInput" placeholder="Add new task..."></textarea>
+          <p id="errorMsg" style="color: red; font-size: 13px; display: none;">Please enter a task!</p>
+          <button id="addTaskBtn">+ ADD</button>
+        </div>
+        <div class="task-list" id="taskList">
+          <p>Add a task to get started</p>
+        </div>
+      </div>
 
-    
-   <body>
-  <div class="container">
-    <div class="header">
-      <h1>My Task Bar</h1>
-      <p>Stay organized, get things done</p>
-      <div class="stats">
-        <div class="stat-box"><span id="pendingCount">0</span><p>Pending</p></div>
-        <div class="stat-box"><span id="doneCount">0</span><p>Done</p></div>
-        <div class="stat-box"><span id="totalCount">0</span><p>Total</p></div>
+      <div class="footer">
+        <span id="taskCount">No tasks</span>
+        <button id="clearBtn">Clear</button>
       </div>
     </div>
-
-    <div class="main-area">
-      <div class="input-section">
-        <textarea id="taskInput" placeholder="Add new task..."></textarea>
-        <button id="addTaskBtn">+ ADD</button>
-      </div>
-      <div class="task-list" id="taskList">
-        <p>Add a task to get started</p>
-      </div>
-    </div>
-
-    <div class="footer">
-      <span id="taskCount">No tasks</span>
-      <button id="clearBtn">Clear</button>
-    </div>
-  </div>
-</body>
-
+    <script src="app.js"></script>
   </body>
-  <script src="app.js"></script>
 </html>

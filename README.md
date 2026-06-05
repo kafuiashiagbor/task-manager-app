@@ -18,6 +18,9 @@ It tracks the total number of tasks, pending tasks, and completed tasks in real 
 - Live task counter showing Pending, Done and Total
 - Responsive design for both desktop and mobile
 
+## Design
+![App Design](designs/task-manager-design.png)
+
 ## Project Status
 Currently in development as part of my internship at CybaNext Technologies.
 
